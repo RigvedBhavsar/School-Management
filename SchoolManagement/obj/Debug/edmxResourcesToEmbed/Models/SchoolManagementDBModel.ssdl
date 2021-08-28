@@ -5,8 +5,8 @@
       <PropertyRef Name="CourseID" />
     </Key>
     <Property Name="CourseID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="Title" Type="nvarchar" MaxLength="50" />
-    <Property Name="Credits" Type="int" />
+    <Property Name="Title" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Credits" Type="int" Nullable="false" />
   </EntityType>
   <EntityType Name="Enrollment">
     <Key>
