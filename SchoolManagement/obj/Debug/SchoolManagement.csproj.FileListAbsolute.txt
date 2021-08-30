@@ -106,3 +106,6 @@ D:\C#\Projects\SchoolManagement\SchoolManagement\obj\Debug\SchoolManagement.cspr
 D:\C#\Projects\SchoolManagement\SchoolManagement\obj\Debug\SchoolManagement.csproj.CopyComplete
 D:\C#\Projects\SchoolManagement\SchoolManagement\obj\Debug\SchoolManagement.dll
 D:\C#\Projects\SchoolManagement\SchoolManagement\obj\Debug\SchoolManagement.pdb
+D:\C#\Projects\SchoolManagement\SchoolManagement\obj\Debug\SchoolManagement.Migrations.InitialCreate.resources
+D:\C#\Projects\SchoolManagement\SchoolManagement\obj\Debug\SchoolManagement.csproj.GenerateResource.cache
+D:\C#\Projects\SchoolManagement\SchoolManagement\obj\Debug\SchoolManagement.Migrations.AddedBirthDate.resources

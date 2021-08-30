@@ -11,11 +11,15 @@ using SchoolManagement.Models;
 
 namespace SchoolManagement.Controllers
 {
+    //Authorize will only allow to Teacher and Admin due to below line 
+    [Authorize(Roles ="Teacher")]
     public class StudentsController : Controller
     {
         private SchoolManagement_DBEntities db = new SchoolManagement_DBEntities();
 
         // GET: Students
+        //AllowAnonymous Will Allow the path for all user
+        [AllowAnonymous]
         public async Task<ActionResult> Index()
         {
             return View(await db.Students.ToListAsync());
